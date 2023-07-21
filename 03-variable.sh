@@ -10,3 +10,8 @@ echo today date = ${DATE}
 
 ARTH=$((2+5-7))
 echo arth = ${ARTH}
+
+
+echo VARIABLES
+group=devops
+echo akr = $group
