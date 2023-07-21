@@ -18,3 +18,6 @@ echo akr = $group
 
 date=05-07-2-23
 echo date is ${date}
+
+calculation=$((1+2+3+5+6))
+echo total = ${calculation}
