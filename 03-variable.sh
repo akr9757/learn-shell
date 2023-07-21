@@ -36,9 +36,3 @@ echo no of arguments - $#
 
 
 
-  ;;
-esac
-echi
-
-  ;;
-esac
