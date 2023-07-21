@@ -21,3 +21,7 @@ echo date is ${date}
 
 calculation=$((1+2+3+5+6))
 echo total = ${calculation}
+
+
+day=$(date +%j)
+echo day of the year = ${day}
