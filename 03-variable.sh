@@ -15,3 +15,6 @@ echo arth = ${ARTH}
 echo VARIABLES
 group=devops
 echo akr = $group
+
+date=05-07-2-23
+echo date is ${date}
