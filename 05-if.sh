@@ -15,3 +15,9 @@ else
   echo fruit does not exit
 fi
 fi
+
+if [ "$quantity" -gt 100 ]; then
+  echo mango price is 1$
+else
+  echo mango price is 2$
+fi
