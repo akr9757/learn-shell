@@ -16,6 +16,12 @@ else
 fi
 fi
 
+if [ -z "$quantity" ]; then
+  echo input quantity is missing
+  exit
+fi
+
+
 if [ "$quantity" -gt 100 ]; then
   echo mango price is 1$
 else
