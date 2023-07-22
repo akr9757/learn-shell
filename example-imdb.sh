@@ -1,4 +1,4 @@
-# Rottentomatoes review
+# Rottentomatoes review example
 
 input=$1
 
