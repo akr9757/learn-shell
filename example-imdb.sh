@@ -7,7 +7,7 @@ if [ -z "${input}" ]; then
   exit
 fi
 
-percent=$(curl -s https://www.rottentomatoes.com/m/${input} | grep tomatometer | grep tomatometerscore | awk -F = '{print $2}'
+percent=$( curl -s https://www.rottentomatoes.com/m/"$input" | grep tomatometer | grep tomatometerscore | xargs | awk -F = '{print $2}'
 )
 
 echo percent = ${percent}
