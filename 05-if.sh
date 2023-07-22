@@ -5,9 +5,9 @@ quantity=$2
 if [ "$fruit_name" == mango ]; then
   echo mango quantity = $quantity
 else
-  if [ "$fruit_name" == apple ];then
-    echo apple quantity = $quantity
-  fi
+if [ "$fruit_name" == apple ];then
+  echo apple quantity = $quantity
 else
   echo fruit does not exit
+fi
 fi
