@@ -3,6 +3,7 @@ quantity=$2
 
 if [ -z "$fruit_name" ]; then
   echo input fruit name is missing
+  exit
 fi
 
 if [ "$fruit_name" == mango ]; then
